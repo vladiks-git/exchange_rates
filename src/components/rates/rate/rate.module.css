@@ -1,0 +1,15 @@
+.rate{
+    display: flex;
+    margin-top: 5px;
+}
+.price{
+    width: 150px;
+    text-align: center;
+}
+.name{
+    width: auto;
+    text-align: center;
+}
+.rate:nth-child(odd){
+    background-color: cadetblue;
+}

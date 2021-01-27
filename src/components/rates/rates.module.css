@@ -1,0 +1,15 @@
+.content{
+    display: flex;
+}
+ul{
+    list-style: none;
+
+}
+.title{
+    display: flex;
+    font-weight: bold;
+}
+.curse{
+    width: 150px;
+    text-align: center;
+}
