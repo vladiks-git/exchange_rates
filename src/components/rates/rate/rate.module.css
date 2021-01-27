@@ -1,15 +1,20 @@
 .rate{
     display: flex;
-    margin-top: 5px;
+    padding: 5px;
+    border-bottom: 1px solid burlywood;
 }
-.price{
-    width: 150px;
-    text-align: center;
+.code{
+    margin-left: 50px;
+    width: 100px;
 }
 .name{
-    width: auto;
-    text-align: center;
+    margin-left: 100px;
+    width: 300px;
 }
-.rate:nth-child(odd){
-    background-color: cadetblue;
+.price{
+    margin-left: 970px;
+
+}
+.rate:hover{
+    background-color: rgba(0, 0, 0, 0.1);
 }

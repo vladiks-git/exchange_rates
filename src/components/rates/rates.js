@@ -30,22 +30,23 @@ const Rates = () => {
     const renderRates = () => {
         return rates.map((item, index) => {
             return(
-                <Rate key={index} name={item.Name} price={item.Value}/>
+                <Rate key={index} name={item.Name} price={item.Value} code={item.CharCode}/>
             )
         })
     }
 
     return (
-        <div>
-            <Link to={'/converter'}>Конвертер</Link>
+        <div style={{width: '100%'}}>
+            <Link to={'/converter'}><p className={style.link}>Конвертер</p></Link>
             <h1>Текущие курсы относительно рубля</h1>
             <span>Последнее обновление данных - {currentDate}</span>
             <div className={style.content}>
-                <h1>1 рубль = </h1>
-                <div>
-                    <div className={style.title}>
+                <div style={{width: '100%'}}>
+                    <div className={style.titles}>
+
+                        <div className={style.code}>Буквенный код</div>
+                        <div className={style.valute}>Валюта</div>
                         <div className={style.curse}>Курс</div>
-                        <div>Страна</div>
                     </div>
                     {renderRates()}
                 </div>

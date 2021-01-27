@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import Axios from "axios";
+import style from './converter.module.css'
 
 const Converter = () => {
 
@@ -22,8 +23,6 @@ const Converter = () => {
         }
         fetchRates()
     }, [])
-
-
 
 
     const onChangeHandler = (value) => {

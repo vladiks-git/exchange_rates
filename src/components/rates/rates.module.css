@@ -1,15 +1,29 @@
 .content{
     display: flex;
+    width: 100%;
 }
 ul{
     list-style: none;
 
 }
-.title{
+.titles{
     display: flex;
     font-weight: bold;
+    width: 100%;
+    border-bottom: 1px solid grey;
+    padding-bottom: 10px;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.code{
+    margin-left: 50px;
+}
+.valute{
+    margin-left: 100px;
 }
 .curse{
-    width: 150px;
-    text-align: center;
+    margin-left: 1200px;
 }
